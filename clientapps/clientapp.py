@@ -1,10 +1,10 @@
 # python application to get one number and copy to clipboard
 
-import urllib
+import urllib.request
 
-appURL = "https://randompythongen.appspot.com/"
+appURL = "https://randompythongen.appspot.com/randomNumber/"
 # send post request to URL
-request = urllib.request.Request(appURL)
+request = urllib.request.Request(appURL, method="GET")
 
 with urllib.request.urlopen(request) as r:
     # get response
