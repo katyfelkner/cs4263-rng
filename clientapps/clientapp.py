@@ -8,7 +8,7 @@ request = urllib.request.Request(appURL)
 
 with urllib.request.urlopen(request) as r:
     # get response
-    print(f.read())
+    print(r.read())
     # parse response
 
     # copy to clipboard
