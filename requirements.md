@@ -7,4 +7,4 @@
 4. The team is responsible for developing a program to verify the uniqueness requirement.
 5. The project has to be implemented separately in python and java.
 ### Our Question
-#### We asked what date the project was due. The answer was that it will depend on the requirements generated an dhow the project changes throughout the smemester.
+#### We asked what date the project was due. The answer was that it will depend on the requirements generated and how the project changes throughout the semester.
