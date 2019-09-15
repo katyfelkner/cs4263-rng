@@ -10,20 +10,21 @@ appURL = "https://randompythongen.appspot.com/randomNumber/"
 # send post request to URL
 request = urllib.request.Request(appURL, method="GET")
 
-for i in range(0, 1000):
-    with urllib.request.urlopen(request) as r:
-        # get response
-        response = r.read()
-        print(response)
-        number = int(response)#.decode("utf-8"))
+for j in range(0, 10):
+    for i in range(0, 1000):
+        with urllib.request.urlopen(request) as r:
+            # get response
+            response = r.read()
+            print(response)
+            number = int(response)#.decode("utf-8"))
 
-    if numbers[number] == 0:
-        numbers[number] = 1
-        countUnique += 1
-    else:
-        countRepeated += 1
-
-    print(i)
-
-print("Unique numbers: " + str(countUnique))
-print("Repeated numbers: " + str(countRepeated))
+        if numbers[number] == 0:
+            numbers[number] = 1
+            countUnique += 1
+        else:
+            countRepeated += 1
+    print("Test #" + str(j))
+    print("Unique numbers: " + str(countUnique))
+    print("Repeated numbers: " + str(countRepeated))
+    countUnique = 0
+    countRepeated = 0
