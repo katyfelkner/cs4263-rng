@@ -15,56 +15,59 @@ public class GetRequestTestScript {
 	int unique = 0;
 
 	boolean[] foundNumber = new boolean[1000000];
-	while (i <= 1000) {
-	try {
+	while (j <= 10){
+		while (i <= 1000) {
+			try {
 
-	    URL url = new URL("http://java-random-number.appspot.com/demo");
-     
-	    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-	    conn.setRequestMethod("GET");
-	    conn.setRequestProperty("Accept", "text/plane");
+			    URL url = new URL("http://java-random-number.appspot.com/demo");
+		     
+			    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+			    conn.setRequestMethod("GET");
+			    conn.setRequestProperty("Accept", "text/plane");
 
-	    if (conn.getResponseCode() != 200) {
-		throw new RuntimeException("Failed : HTTP error code : "
-					   + conn.getResponseCode());
-	    }
+			    if (conn.getResponseCode() != 200) {
+				throw new RuntimeException("Failed : HTTP error code : "
+							   + conn.getResponseCode());
+			    }
 
-	    BufferedReader br = new BufferedReader(new InputStreamReader(
-									 (conn.getInputStream())));
+			    BufferedReader br = new BufferedReader(new InputStreamReader(
+											 (conn.getInputStream())));
 
-	    String output;
-	    while ((output = br.readLine()) != null) {
-		//System.out.println(output);
-		int index = Integer.parseInt(output);
-		if(!foundNumber[index]){
-		    foundNumber[index] = true;
-		    unique++;
+			    String output;
+			    while ((output = br.readLine()) != null) {
+				//System.out.println(output);
+				int index = Integer.parseInt(output);
+				if(!foundNumber[index]){
+				    foundNumber[index] = true;
+				    unique++;
+				}
+				else {
+				    repeats++;
+				}
+				
+				if ( i % 25 == 0)
+				    System.out.println("Random number fetched: " + i);
+			    }
+
+			    conn.disconnect();
+
+			} catch (MalformedURLException e) {
+
+			    e.printStackTrace();
+
+			} catch (IOException e) {
+
+			    e.printStackTrace();
+
+			}
+			    i++;
 		}
-		else {
-		    repeats++;
-		}
-		
-		if ( i % 25 == 0)
-		    System.out.println("Random number fetched: " + i);
-	    }
-
-	    conn.disconnect();
-
-	} catch (MalformedURLException e) {
-
-	    e.printStackTrace();
-
-	} catch (IOException e) {
-
-	    e.printStackTrace();
-
+		System.out.println("Test #" + j);
+		System.out.println("Repeated Numbers: " + repeats);
+		System.out.println("Unique Numbers: " + unique);
+		repeats = 0;
+		unique = 0;
+		j++;
 	}
-	    i++;
-	}
-
-	System.out.println("Reapted Numbers: " + repeats);
-	System.out.println("unique Numbers: " + unique);
-
     }
-
 }
