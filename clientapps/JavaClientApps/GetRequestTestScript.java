@@ -11,6 +11,7 @@ public class GetRequestTestScript {
     // http://java-random-number.appspot.com/demo
     public static void main(String[] args) {
 	int i =1;
+	int j =1;
 	int repeats = 0;
 	int unique = 0;
 
