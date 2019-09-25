@@ -16,7 +16,7 @@ Move into the directory for the Python App Engine app using:
 `cd cs4263-rng/PythonAppEngine`
 
 Install flask (dependency for our application) using:
-`sudo pip3 install flask`
+`sudo pip3 install -r requirements.txt`
 
 When the installation is finished, deploy the App Engine app using:
 `gcloud app deploy`
