@@ -47,3 +47,13 @@ View the external IP address associated with the instance you've been working in
 Append :5000 to the end of it and type it in your browser page. 
 For example, here is the link to our python instance which generates a random number.
 http://35.238.165.97:5000/
+
+Final tip - to add permanence to this flask application do the following:
+
+`sudo apt install tmux`
+
+`tmux`
+
+`python ~/cs4263-rng/PythonInstance/main.py`
+
+Press control+'b' and then d. Then you are free to exit your instance and the flask server will continue to run.
