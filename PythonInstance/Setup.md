@@ -26,7 +26,7 @@ Go to networking --> VPC Network --> Firewall Rules as follows.
 **The instance is now up and running. Let's go to the google cloud console now (or your prefferred method of connecting to the instance).**
 ![](https://i.imgur.com/n10jc43.png)
 
-#### Install the requirements and get it running!
+#### Install the Requirements
 
 Enter the following lines into your console.
 
