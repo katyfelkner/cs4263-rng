@@ -21,7 +21,7 @@ The link to our current implementation: [Instance RNG Python](http://35.238.165.
 The link to our current implementation: [App Engine RNG Python](http://randompythongen.appspot.com/randomNumber/ "Instance RNG Python")
 
 ### [Java App Engine Setup](https://github.com/katyfelkner/cs4263-rng/blob/master/JavaAppEngine/Readme.md "Java App Engine Setup")
-The link to our current implementation: [App Engine RNG Java](http://java-random-number.appspot.com/demo "Instance RNG Python")'
+The link to our current implementation: [App Engine RNG Java](http://java-random-number.appspot.com/demo "Instance RNG Python")
 
 ### [Testing](https://github.com/katyfelkner/cs4263-rng/blob/master/Testing/TestingDocumentation.md "Java App Engine Setup")
 
