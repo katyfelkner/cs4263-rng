@@ -10,9 +10,9 @@
 
 1) Open up your CMD and type `cd {path}` to move to the location you cloned this repository to.
 
-2) Type `javac cs4263-rng/clientapps/JavaClientApps/GetRequest.java` and `javac cs4263-rng/clientapps/JavaClientApps/GetRequestTestScript.java` to compile the java scripts.
+2) Type `javac cs4263-rng/Testing/GetRequest.java` and `javac cs4263-rng/Testing/GetRequestTestScript.java` to compile the java scripts.
 
-3) Once compiled, you can run the `GetRequest` and `GetRequestTestScript` to get a single random number or to test the randomness of our algorithm by type `java cs4263-rng/clientapps/JavaClientApps/GetRequest` and `java cs4263-rng/clientapps/JavaClientApps/GetRequestTestScript` respectively. 
+3) Once compiled, you can run the `GetRequest` and `GetRequestTestScript` to get a single random number or to test the randomness of our algorithm by type `java cs4263-rng/Testing/GetRequest` and `java cs4263-rng/Testing/GetRequestTestScript` respectively. 
 
 ### [Python Instance Setup](https://github.com/katyfelkner/cs4263-rng/blob/master/PythonInstance/Setup.md "Python Instance Setup")
 The link to our current implementation: [Instance RNG Python](http://35.238.165.97:5000/ "Instance RNG Python")
