@@ -28,10 +28,15 @@ Go to networking --> VPC Network --> Firewall Rules as follows.
 
 Enter the following lines into your console.
 `sudo apt install git`
+
 `sudo apt install python-pip`
+
 `pip install flask`
+
 `git clone https://github.com/katyfelkner/cs4263-rng`
+
 `cd cs4263-rng/PythonInstance/`
+
 `python main.py`
 
 **And you should be up and running!** 
