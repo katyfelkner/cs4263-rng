@@ -14,11 +14,8 @@
 
 3) Once compiled, you can run the `GetRequest` and `GetRequestTestScript` to get a single random number or to test the randomness of our algorithm by type `java cs4263-rng/clientapps/JavaClientApps/GetRequest` and `java cs4263-rng/clientapps/JavaClientApps/GetRequestTestScript` respectively. 
 
-### Python Running
-
-- Note: Please ensure you have python installed. If not follow these instruction `https://realpython.com/installing-python/`
-
- 1) you can run the `clientapp.py` and `testapp.py` to get a single random number or to test the randomness of our algorithm by type `python 3 cs4263-rng/clientapps/clientapp.py` and `python 3 cs4263-rng/clientapps/testapp.py` respectively.
+### [Python Instance Setup](https://github.com/katyfelkner/cs4263-rng/blob/master/PythonInstance/Setup.md "Python Instance Setup")
+The link to our current implementation: [Instance RNG Python](http://35.238.165.97:5000/ "Instance RNG Python")
  
  ## Overview
 
