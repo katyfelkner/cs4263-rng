@@ -21,7 +21,7 @@ The link to our current implementation: [Instance RNG Python](http://35.238.165.
 The link to our current implementation: [App Engine RNG Python](http://randompythongen.appspot.com/randomNumber/ "Instance RNG Python")
 
 ### [Java App Engine Setup](https://github.com/katyfelkner/cs4263-rng/blob/master/JavaAppEngine/Readme.md "Java App Engine Setup")
-
+The link to our current implementation: [App Engine RNG Java](http://java-random-number.appspot.com/demo "Instance RNG Python")
  ## Overview
 
 This repo concists of two clients one written in Python the other in Java that perform REST GET requests. They both hit two API endpoint that are also written in there respective langauge. The endpoint are being hosted on via two google cloud instances `https://randompythongen.appspot.com/randomNumber/` for Python and `http://java-random-number.appspot.com/demo` for Java. These two REST API endpoint return a random number between 1 and 1,000,000.
