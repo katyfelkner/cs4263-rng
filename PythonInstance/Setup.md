@@ -7,7 +7,7 @@ Click create a new instance and setup your instances as follows.
 ![](https://i.imgur.com/i10iusc.png)
 **Change the machine type to f1-micro.**
 **For machine type use DebianGNU/Linux 9 (stretch).**
-**Allow HTTP(S) traffic. **
+**Allow HTTP(S) traffic.**
 Click the arrows to expand the settings menu.
 I recommend setting a static IP address although this is not strictly necessary for testing purposes.
 Click create and wait for it to allocate resources and start.
