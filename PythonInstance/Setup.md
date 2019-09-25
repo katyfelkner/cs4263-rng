@@ -27,6 +27,7 @@ Go to networking --> VPC Network --> Firewall Rules as follows.
 ![](https://i.imgur.com/n10jc43.png)
 
 Enter the following lines into your console.
+
 `sudo apt install git`
 
 `sudo apt install python-pip`
