@@ -14,8 +14,8 @@ for i in range(0, 1000):
     with urllib.request.urlopen(request) as r:
         # get response
         response = r.read()
-        print(response)
-        number = int(response)#.decode("utf-8"))
+        #print(response)
+        number = int(response)
 
     if numbers[number] == 0:
         numbers[number] = 1
@@ -23,7 +23,8 @@ for i in range(0, 1000):
     else:
         countRepeated += 1
 
-    print(i)
+    if (i % 25 == 0):
+        print ("random numbers fetched:", i)
 
 print("Unique numbers: " + str(countUnique))
 print("Repeated numbers: " + str(countRepeated))
