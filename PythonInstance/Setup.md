@@ -9,7 +9,7 @@ Click create a new instance and setup your instances as follows.
 **For machine type use DebianGNU/Linux 9 (stretch).**
 **Allow HTTP(S) traffic. **
 Click the arrows to expand the settings menu.
-I reccomend setting a static IP address although this is not strictly necessary for testing purposes.
+I recommend setting a static IP address although this is not strictly necessary for testing purposes.
 Click create and wait for it to allocate resources and start.
 
 
@@ -40,7 +40,8 @@ Enter the following lines into your console.
 
 `python main.py`
 
-**And you should be up and running!** 
+**And you should be up and running!**
+
 Go to compute engine --> vm instances (where we started).
 View the external IP address associated with the instance you've been working in.
 Append :5000 to the end of it and type it in your browser page. 
