@@ -27,16 +27,16 @@ The link to our current implementation: [App Engine RNG Java](http://java-random
 
 ### Timing
 Generated using the GetRequest.java
-Central Region: App Java, App Python, Instance Java, Instance Python
-10.204.6.71: US-Central-1_App_Java @http://java-random-number.appspot.com/demo 325 223831
-10.204.6.71: US-Central-1_App_Python @http://randompythongen.appspot.com/randomNumber/ 149 83806
-10.204.6.71: US-Central-1_Instance_Java @http://104.199.77.112:5000/ 255 978982
-10.204.6.71: US-Central-1_Instance_Python @http://35.238.165.97:5000/ 112 119348
-EU-WEST-1 Region: App Java, App Python, Instance Java, Instance Python
-10.204.6.71: EU-WEST-1_App_Java @https://composed-anvil-254017.appspot.com/demo 575 855859
-10.204.6.71: EU-WEST-1_App_Python @https://cs4263-test.appspot.com 291 974314
-10.204.6.71: EU-WEST-1_Instance_Java @http://34.77.239.200:5000/ 251 154908
-10.204.6.71: EU-WEST-1_Instance_Python @http://35.238.165.97:5000/ 107 929849
+`Central Region: App Java, App Python, Instance Java, Instance Python`
+`10.204.6.71: US-Central-1_App_Java @http://java-random-number.appspot.com/demo 325 223831`
+`10.204.6.71: US-Central-1_App_Python @http://randompythongen.appspot.com/randomNumber/ 149 83806`
+`10.204.6.71: US-Central-1_Instance_Java @http://104.199.77.112:5000/ 255 978982`
+`10.204.6.71: US-Central-1_Instance_Python @http://35.238.165.97:5000/ 112 119348`
+`EU-WEST-1 Region: App Java, App Python, Instance Java, Instance Python`
+`10.204.6.71: EU-WEST-1_App_Java @https://composed-anvil-254017.appspot.com/demo 575 855859`
+`10.204.6.71: EU-WEST-1_App_Python @https://cs4263-test.appspot.com 291 974314`
+`10.204.6.71: EU-WEST-1_Instance_Java @http://34.77.239.200:5000/ 251 154908`
+`10.204.6.71: EU-WEST-1_Instance_Python @http://35.238.165.97:5000/ 107 929849`
 
 ## Overview
 
