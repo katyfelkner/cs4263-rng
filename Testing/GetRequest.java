@@ -17,8 +17,8 @@ public class GetRequest {
     	System.out.println("Central Region: App Java, App Python, Instance Java, Instance Python");
     	makeHTTPRequest("http://java-random-number.appspot.com/demo", "US-Central-1", "App", "Java");
     	makeHTTPRequest("http://randompythongen.appspot.com/randomNumber/", "US-Central-1", "App", "Python");
-    	makeHTTPRequest("http://104.199.77.112:5000/", "EUS-Central-1", "Instance", "Java");
-    	makeHTTPRequest("http://35.238.165.97:5000/", "EUS-Central-1", "Instance", "Python");
+    	makeHTTPRequest("http://104.199.77.112:5000/", "US-Central-1", "Instance", "Java");
+    	makeHTTPRequest("http://35.238.165.97:5000/", "US-Central-1", "Instance", "Python");
 
     	//West Domains
     	System.out.println();
