@@ -28,7 +28,7 @@ The link to our current implementation: [App Engine RNG Java](http://java-random
 ### Timing
 Generated using the [GetRequest.java](https://github.com/katyfelkner/cs4263-rng/blob/master/Testing/GetRequest.java "GetRequest.java")
 
-`Central Region: App Java, App Python, Instance Java, Instance Python`
+**Central Region: App Java, App Python, Instance Java, Instance Python**
 
 `10.204.6.71: US-Central-1_App_Java @http://java-random-number.appspot.com/demo 325 223831`
 
@@ -38,7 +38,7 @@ Generated using the [GetRequest.java](https://github.com/katyfelkner/cs4263-rng/
 
 `10.204.6.71: US-Central-1_Instance_Python @http://35.238.165.97:5000/ 112 119348`
 
-`EU-WEST-1 Region: App Java, App Python, Instance Java, Instance Python`
+**EU-WEST-1 Region: App Java, App Python, Instance Java, Instance Python**
 
 `10.204.6.71: EU-WEST-1_App_Java @https://composed-anvil-254017.appspot.com/demo 575 855859`
 
