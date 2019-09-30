@@ -25,8 +25,31 @@ The link to our current implementation: [App Engine RNG Java](http://java-random
 
 ### [Testing](https://github.com/katyfelkner/cs4263-rng/blob/master/Testing/TestingDocumentation.md "Java App Engine Setup")
 
+### Timing
+Generated using the GetRequest.java
 
- ## Overview
+`Central Region: App Java, App Python, Instance Java, Instance Python`
+
+`10.204.6.71: US-Central-1_App_Java @http://java-random-number.appspot.com/demo 325 223831`
+
+`10.204.6.71: US-Central-1_App_Python @http://randompythongen.appspot.com/randomNumber/ 149 83806`
+
+`10.204.6.71: US-Central-1_Instance_Java @http://104.199.77.112:5000/ 255 978982`
+
+`10.204.6.71: US-Central-1_Instance_Python @http://35.238.165.97:5000/ 112 119348`
+
+`EU-WEST-1 Region: App Java, App Python, Instance Java, Instance Python`
+
+`10.204.6.71: EU-WEST-1_App_Java @https://composed-anvil-254017.appspot.com/demo 575 855859`
+
+`10.204.6.71: EU-WEST-1_App_Python @https://cs4263-test.appspot.com 291 974314`
+
+`10.204.6.71: EU-WEST-1_Instance_Java @http://34.77.239.200:5000/ 251 154908`
+
+`10.204.6.71: EU-WEST-1_Instance_Python @http://35.238.165.97:5000/ 107 929849`
+
+
+## Overview
 
 This repo concists of two clients one written in Python the other in Java that perform REST GET requests. They both hit two API endpoint that are also written in there respective langauge. The endpoint are being hosted on via two google cloud instances `https://randompythongen.appspot.com/randomNumber/` for Python and `http://java-random-number.appspot.com/demo` for Java. These two REST API endpoint return a random number between 1 and 1,000,000.
 
