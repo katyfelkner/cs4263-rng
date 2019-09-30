@@ -26,7 +26,7 @@ The link to our current implementation: [App Engine RNG Java](http://java-random
 ### [Testing](https://github.com/katyfelkner/cs4263-rng/blob/master/Testing/TestingDocumentation.md "Java App Engine Setup")
 
 ### Timing
-Generated using the GetRequest.java
+Generated using the [GetRequest.java](https://github.com/katyfelkner/cs4263-rng/blob/master/Testing/GetRequest.java "GetRequest.java")
 
 `Central Region: App Java, App Python, Instance Java, Instance Python`
 
