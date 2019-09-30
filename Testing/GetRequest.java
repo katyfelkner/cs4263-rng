@@ -54,6 +54,7 @@ public class GetRequest {
 		    System.out.print(region + "_");
 		    System.out.print(domain + "_");
 		    System.out.print(lang + " @");
+		    System.out.print(urlS + " ");
 		    System.out.print(elapsedTime+" ");
 		    while ((output = br.readLine()) != null) {
 			System.out.println(output);
