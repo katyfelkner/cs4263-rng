@@ -13,14 +13,22 @@ public class GetRequest {
 
     public static void main(String[] args) {
     	//Making a GET request to a domain and print respones 
+    	// Central Domains
+    	System.out.println("Central Region: App Java, App Python, Instance Java, Instance Python");
     	makeHTTPRequest("http://java-random-number.appspot.com/demo", "US-Central-1", "App", "Java");
+    	makeHTTPRequest("http://randompythongen.appspot.com/randomNumber/", "US-Central-1", "App", "Python");
+    	makeHTTPRequest("http://104.199.77.112:5000/", "EUS-Central-1", "Instance", "Java");
+    	makeHTTPRequest("http://35.238.165.97:5000/", "EUS-Central-1", "Instance", "Python");
+
+    	//West Domains
+    	System.out.println();
+    	System.out.println();
+    	System.out.println("EU-WEST-1 Region: App Java, App Python, Instance Java, Instance Python");
     	makeHTTPRequest("https://composed-anvil-254017.appspot.com/demo", "EU-WEST-1", "App", "Java");
     	makeHTTPRequest("https://cs4263-test.appspot.com", "EU-WEST-1", "App", "Python");
-    	makeHTTPRequest("http://randompythongen.appspot.com/randomNumber/", "US-Central-1", "App", "Python");
-    	makeHTTPRequest("http://35.238.165.97:5000/", "EUS-Central-1", "Instance", "Python");
+    	makeHTTPRequest("http://34.77.239.200:5000/", "EU-WEST-1", "Instance", "Java");
     	makeHTTPRequest("http://35.238.165.97:5000/", "EU-WEST-1", "Instance", "Python");
     	
-	
     }
 
     public static void makeHTTPRequest(String urlS, String region, String domain, String lang) {
